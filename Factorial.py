@@ -1,4 +1,4 @@
-def find_factorial_recursive(number):  # O(n).
+def find_factorial_recursive(number):  # O(n)..
     if number == 2:
         return 2
     return number * find_factorial_recursive(number-1)
